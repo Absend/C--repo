@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{34581FE0-7ED9-4D5A-BC71-8710ED8F0520}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Engine</RootNamespace>
+    <AssemblyName>Engine</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Commands\CanExecuteDelegate.cs" />
+    <Compile Include="Commands\ExecuteDelegate.cs" />
+    <Compile Include="Common\Constants.cs" />
+    <Compile Include="Common\Enums\GameObjectType.cs" />
+    <Compile Include="Common\Exceptions\GoshoException.cs" />
+    <Compile Include="Common\Exceptions\NotSetFieldOrPropertyException.cs" />
+    <Compile Include="Common\Exceptions\Validator.cs" />
+    <Compile Include="Common\Extensions.cs" />
+    <Compile Include="Common\RandomGenerator.cs" />
+    <Compile Include="Common\Structs\Move.cs" />
+    <Compile Include="Common\Structs\Position.cs" />
+    <Compile Include="Common\Structs\Size.cs" />
+    <Compile Include="Contracts\IAbilityChangeable.cs" />
+    <Compile Include="Contracts\IFightable.cs" />
+    <Compile Include="Contracts\IMovable.cs" />
+    <Compile Include="GameRenderers\ConsolRenderer.cs" />
+    <Compile Include="GameRenderers\IRenderer.cs" />
+    <Compile Include="Contracts\IScore.cs" />
+    <Compile Include="Engines\BoxOpenEngine.cs" />
+    <Compile Include="Engines\FightEngine.cs" />
+    <Compile Include="Engines\FriendMeetingEngine.cs" />
+    <Compile Include="Engines\MainEngine.cs" />
+    <Compile Include="Engines\QuizEngine.cs" />
+    <Compile Include="GameRenderers\KeyDownEventArgs.cs" />
+    <Compile Include="GameRenderers\WpfRenderer.cs" />
+    <Compile Include="Models\Box.cs" />
+    <Compile Include="Models\Character.cs" />
+    <Compile Include="Models\Dice.cs" />
+    <Compile Include="Models\Fighter.cs" />
+    <Compile Include="Models\Friend.cs" />
+    <Compile Include="Models\GameObject.cs" />
+    <Compile Include="Models\Player.cs" />
+    <Compile Include="Models\Playground.cs" />
+    <Compile Include="Models\Quiz\Answer.cs" />
+    <Compile Include="Models\Quiz\ExamItem.cs" />
+    <Compile Include="Models\Quiz\Question.cs" />
+    <Compile Include="Models\Room.cs" />
+    <Compile Include="Models\Score.cs" />
+    <Compile Include="Models\Trainer.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ViewModels\BaseViewModel.cs" />
+    <Compile Include="Commands\RelayCommand.cs" />
+    <Compile Include="ViewModels\StartViewModel.cs" />
+    <Compile Include="ViewModels\PlayerViewModel.cs" />
+    <Compile Include="ViewModels\PlaygroundViewModel.cs" />
+    <Compile Include="ViewModels\QuizViewModel.cs" />
+    <Compile Include="ViewModels\VisibilityConverter.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <None Include="Documentation\ModelsClassDiagram.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Data\Audio\click.wav" />
+    <Content Include="Data\Audio\sound1.wav" />
+    <Content Include="Data\Audio\taDaa.wav" />
+    <Content Include="Data\Images\cuki.png" />
+    <Content Include="Data\Images\dice.png" />
+    <Content Include="Data\Images\doncho.png" />
+    <Content Include="Data\Images\koceto.png" />
+    <Content Include="Data\Images\marto.png" />
+    <Content Include="Data\Images\questionmark.png" />
+    <Content Include="Data\Text\Questions.xml" />
+    <Content Include="Data\Text\Scores.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

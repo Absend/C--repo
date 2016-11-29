@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exam>
+  <question text="Which of the following keyword is used for including namespaces in а C# program?">
+    <answer correct="false" text="imports"></answer>
+    <answer correct="true" text="using"></answer>
+    <answer correct="false" text="where"></answer>
+    <answer correct="false" text="None of the above."></answer>
+  </question>
+  <question text="Which of the following converts a type to a byte value in C#?">
+    <answer correct="false" text="ToSingle"></answer>
+    <answer correct="true" text="ToByte"></answer>
+    <answer correct="false" text="ToChar"></answer>
+    <answer correct="false" text="ToDateTime"></answer>
+  </question>
+  <question text="Which of the following converts a type to a double type in C#?">
+    <answer correct="false" text="ToDecimal"></answer>
+    <answer correct="true" text="ToDouble"></answer>
+    <answer correct="false" text="ToInt16"></answer>
+    <answer correct="false" text="ToInt32"></answer>
+  </question>
+  <question text="Which of the following operator determines whether an object is of a certain type in C#?">
+    <answer correct="false" text="?:"></answer>
+    <answer correct="true" text="is"></answer>
+    <answer correct="false" text="as"></answer>
+    <answer correct="false" text="*"></answer>
+  </question>
+  <question text="Which of the following statements is correct about access specifiers in C#?">
+    <answer correct="false" text="Encapsulation is implemented by using access specifiers."></answer>
+    <answer correct="false" text="An access specifier defines the scope and visibility of a class member."></answer>
+    <answer correct="true" text="Both of the above."></answer>
+    <answer correct="false" text="None of the above."></answer>
+  </question>
+  <question text="Which of the following property of Array class in C# gets a 64-bit integer, the total number of elements in all the dimensions of the Array?">
+    <answer correct="false" text="Rank"></answer>
+    <answer correct="true" text="LongLength"></answer>
+    <answer correct="false" text="Length"></answer>
+    <answer correct="false" text="None of the above."></answer>
+  </question>
+  <question text="Which of the following is the default access specifier of a class member function?">
+    <answer correct="true" text="Private"></answer>
+    <answer correct="false" text="Public"></answer>
+    <answer correct="false" text="Protected"></answer>
+    <answer correct="false" text="Internal"></answer>
+  </question>
+  <question text="Which of the following is the correct about static member functions of a class?">
+    <answer correct="false" text="You can also declare a member function as static."></answer>
+    <answer correct="false" text="Such functions can access only static variables."></answer>
+    <answer correct="false" text="The static functions exist even before the object is created."></answer>
+    <answer correct="true" text="All of the above."></answer>
+  </question>
+  <question text="You can define one namespace inside another namespace.">
+    <answer correct="true" text="true"></answer>
+    <answer correct="false" text="false"></answer>
+    <answer correct="false" text="Gosho"></answer>
+    <answer correct="false" text="Pesho"></answer>
+  </question>
+  <question text="Which of the following preprocessor directive allows generating a level one warning from a specific location in your code in C#?">
+    <answer correct="true" text="warning"></answer>
+    <answer correct="false" text="region"></answer>
+    <answer correct="false" text="line"></answer>
+    <answer correct="false" text="error"></answer>
+  </question>
+  <question text="We can use reserved keywords as identifiers in C# by prefixing them with @ character?">
+    <answer correct="true" text="true"></answer>
+    <answer correct="false" text="false"></answer>
+    <answer correct="false" text="Gosho"></answer>
+    <answer correct="false" text="Pesho"></answer>
+  </question>
+  <question text="Which of the following defines boxing correctly?">
+    <answer correct="true" text="When a value type is converted to object type, it is called boxing."></answer>
+    <answer correct="false" text="When an object type is converted to a value type, it is called boxing."></answer>
+    <answer correct="false" text="Both of the above."></answer>
+    <answer correct="false" text="None of the above."></answer>
+  </question>
+  <question text="Which of the following converts a type to a 16-bit integer in C#?">
+    <answer correct="false" text="ToDecimal"></answer>
+    <answer correct="false" text="ToDouble"></answer>
+    <answer correct="true" text="ToInt16"></answer>
+    <answer correct="false" text="ToInt32"></answer>
+  </question>
+  <question text="Which of the following converts a type to an unsigned big type in C#?">
+    <answer correct="false" text="ToType"></answer>
+    <answer correct="false" text="ToUInt16"></answer>
+    <answer correct="false" text="ToUInt32"></answer>
+    <answer correct="true" text="ToUInt64"></answer>
+  </question>
+  <question text="Which of the following access specifier in C# allows a class to expose its member variables and member functions to other functions and objects?">
+    <answer correct="true" text="Public"></answer>
+    <answer correct="false" text="Private"></answer>
+    <answer correct="false" text="Protected"></answer>
+    <answer correct="false" text="Internal"></answer>
+  </question>
+  <question text="Which of the following property of Array class in C# checks whether the Array has a fixed size?">
+    <answer correct="true" text="IsFixedSize"></answer>
+    <answer correct="false" text="IsStatic"></answer>
+    <answer correct="false" text="Length"></answer>
+    <answer correct="false" text="None of the above."></answer>
+  </question>
+  <question text="Which of the following is the default access specifier of a class member variable?">
+    <answer correct="true" text="Private"></answer>
+    <answer correct="false" text="Public"></answer>
+    <answer correct="false" text="Protected"></answer>
+    <answer correct="false" text="Internal"></answer>
+  </question>
+  <question text="Operator overloading is a kind of dynamic polymorphism.">
+    <answer correct="false" text="true"></answer>
+    <answer correct="true" text="false"></answer>
+    <answer correct="false" text="Gosho"></answer>
+    <answer correct="false" text="Pesho"></answer>
+  </question>
+  <question text="Which of the following preprocessor directive allows to create a compound conditional directive, along with #if in C#?">
+    <answer correct="false" text="define"></answer>
+    <answer correct="false" text="endif"></answer>
+    <answer correct="false" text="if"></answer>
+    <answer correct="true" text="else"></answer>
+  </question>
+  <question text="The System.SystemException class is the base class for all predefined system exception in C#?">
+    <answer correct="true" text="true"></answer>
+    <answer correct="false" text="false"></answer>
+    <answer correct="false" text="Gosho"></answer>
+    <answer correct="false" text="Pesho"></answer>
+  </question>
+  <question text="Which of the following is a contextual keyword in C#?">
+    <answer correct="false" text="get"></answer>
+    <answer correct="false" text="set"></answer>
+    <answer correct="false" text="add"></answer>
+    <answer correct="true" text="All of the above."></answer>
+  </question>
+  <question text="Which of the following is correct about Object Type in C#?">
+    <answer correct="false" text="The Object Type is the ultimate base class for all data types in C# Common Type System (CTS)."></answer>
+    <answer correct="false" text="Object is an alias for System.Object class."></answer>
+    <answer correct="false" text="The object types can be assigned values of any other types, value types, reference types, predefined or user-defined types."></answer>
+    <answer correct="true" text="All of the above."></answer>
+  </question>
+  <question text="Which of the following converts a type to a 32-bit integer in C#?">
+    <answer correct="false" text="ToDecimal"></answer>
+    <answer correct="false" text="ToDouble"></answer>
+    <answer correct="false" text="ToInt16"></answer>
+    <answer correct="true" text="ToInt32"></answer>
+  </question>
+  <question text="Which of the following converts a type to an unsigned big type in C#?">
+    <answer correct="false" text="ToType"></answer>
+    <answer correct="false" text="ToUInt16"></answer>
+    <answer correct="false" text="ToUInt32"></answer>
+    <answer correct="true" text="ToUInt64"></answer>
+  </question>
+  <question text="Which of the following method copies the actual value of an argument into the formal parameter of the function?">
+    <answer correct="true" text="Value parameters"></answer>
+    <answer correct="false" text="Reference parameters"></answer>
+    <answer correct="false" text="Output parameters"></answer>
+    <answer correct="false" text="None of the above."></answer>
+  </question>
+  <question text="Which of the following is true about C# structures?">
+    <answer correct="false" text="Structures can have methods, fields, indexers, properties, operator methods, and events."></answer>
+    <answer correct="false" text="Structures can have defined constructors, but not destructors."></answer>
+    <answer correct="false" text="You cannot define a default constructor for a structure. The default constructor is automatically defined and cannot be changed."></answer>
+    <answer correct="true" text="All of the above."></answer>
+  </question>
+  <question text="Which of the following is the correct about class member variables?">
+    <answer correct="false" text="Member variables are the attributes of an object (from design perspective) and they are kept private to implement encapsulation."></answer>
+    <answer correct="false" text="These private variables can only be accessed using the public member functions."></answer>
+    <answer correct="true" text="Both of the above."></answer>
+    <answer correct="false" text="None of the above."></answer>
+  </question>
+  <question text="Which of the following is the correct about static member functions of a class?">
+    <answer correct="false" text="You can also declare a member function as static."></answer>
+    <answer correct="false" text="Such functions can access only static variables."></answer>
+    <answer correct="false" text="The static functions exist even before the object is created."></answer>
+    <answer correct="true" text="All of the above."></answer>
+  </question>
+  <question text="Which of the following preprocessor directive specifies the end of a conditional directive in C#?">
+    <answer correct="false" text="elif"></answer>
+    <answer correct="true" text="endif"></answer>
+    <answer correct="false" text="if"></answer>
+    <answer correct="false" text="else"></answer>
+  </question>
+  <question text="Which of the following preprocessor directive lets you specify a block of code that you can expand or collapse when using the outlining feature of the Visual Studio Code Editor in C#?">
+    <answer correct="false" text="warning"></answer>
+    <answer correct="true" text="region"></answer>
+    <answer correct="false" text="line"></answer>
+    <answer correct="false" text="error"></answer>
+  </question>
+  <question text="Which of the following is correct about variable naming conventions in C#?">
+    <answer correct="false" text="It should not be a C# keyword."></answer>
+    <answer correct="false" text="It must not contain any embedded space or symbol such as? - + ! @ # % ^ * ( ) [ ] { }"></answer>
+    <answer correct="true" text="Both of the above."></answer>
+    <answer correct="false" text="None of the above."></answer>
+  </question>
+  <question text="Which of the following is correct about dynamic Type in C#?">
+    <answer correct="false" text="You can store any type of value in the dynamic data type variable."></answer>
+    <answer correct="false" text="Type checking for these types of variables takes place at run-time."></answer>
+    <answer correct="false" text="Both of the above."></answer>
+    <answer correct="false" text="None of the above."></answer>
+  </question>
+  <question text="Which of the following converts a floating point or integer type to a decimal type in C#?">
+    <answer correct="true" text="ToDecimal"></answer>
+    <answer correct="false" text="ToDouble"></answer>
+    <answer correct="false" text="ToInt16"></answer>
+    <answer correct="false" text="ToInt32"></answer>
+  </question>
+  <question text="Which of the following operator returns the size of a data type in C#?">
+    <answer correct="true" text="sizeof"></answer>
+    <answer correct="false" text="typeof"></answer>
+    <answer correct="false" text="Gosho"></answer>
+    <answer correct="false" text="*"></answer>
+  </question>
+  <question text="Which of the following statements is correct about encapsulation?">
+    <answer correct="false" text="Encapsulation is defined as the process of enclosing one or more items within a physical or logical package."></answer>
+    <answer correct="false" text="Encapsulation, in object oriented programming methodology, prevents access to implementation details."></answer>
+    <answer correct="false" text="Abstraction allows making relevant information visible and encapsulation enables a programmer to implement the desired level of abstraction."></answer>
+    <answer correct="true" text="All of the above."></answer>
+  </question>
+  <question text="Which of the following property of Array class in C# checks whether the Array is readonly?">
+    <answer correct="false" text="IsFixedSize"></answer>
+    <answer correct="true" text="IsReadOnly"></answer>
+    <answer correct="false" text="Length"></answer>
+    <answer correct="false" text="None of the above."></answer>
+  </question>
+  <question text="Which of the following is the correct about class constructor?">
+    <answer correct="false" text="A class constructor is a special member function of a class that is executed whenever we create new objects of that class."></answer>
+    <answer correct="false" text="A constructor has exactly the same name as that of class and it does not have any return type."></answer>
+    <answer correct="true" text="Both of the above."></answer>
+    <answer correct="false" text="None of the above."></answer>
+  </question>
+  <question text="The comparison operators can be overloaded.">
+    <answer correct="true" text="true"></answer>
+    <answer correct="false" text="false"></answer>
+    <answer correct="false" text="Gosho"></answer>
+    <answer correct="false" text="Pesho"></answer>
+  </question>
+  <question text="Which of the following preprocessor directive defines a sequence of characters as symbol in C#?">
+    <answer correct="true" text="define"></answer>
+    <answer correct="false" text="undef"></answer>
+    <answer correct="false" text="region"></answer>
+    <answer correct="false" text="endregion"></answer>
+  </question>
+  <question text="Which of the following is true about exceptions in C#?">
+    <answer correct="false" text="The exception classes in C# are mainly directly or indirectly derived from the System.Exception class."></answer>
+    <answer correct="false" text="C# exceptions are represented by classes."></answer>
+    <answer correct="true" text="Both of the above."></answer>
+    <answer correct="false" text="None of the above."></answer>
+  </question>
+  <question text="Which of the following converts a type to a Boolean value, where possible in C#?">
+    <answer correct="false" text="ToBoolean"></answer>
+    <answer correct="false" text="ToSingle"></answer>
+    <answer correct="false" text="ToChar"></answer>
+    <answer correct="false" text="ToDateTime"></answer>
+  </question>
+  <question text="Which of the following converts a type to a string in C#?">
+    <answer correct="false" text="ToInt64"></answer>
+    <answer correct="false" text="ToSbyte"></answer>
+    <answer correct="false" text="ToSingle"></answer>
+    <answer correct="true" text="ToString"></answer>
+  </question>
+  <question text="Which of the following converts a type to an unsigned big type in C#?">
+    <answer correct="false" text="ToType"></answer>
+    <answer correct="false" text="ToUInt16"></answer>
+    <answer correct="false" text="ToUInt32"></answer>
+    <answer correct="false" text="ToUInt64"></answer>
+  </question>
+  <question text="Which of the following is correct about variable naming conventions in C#?">
+    <answer correct="false" text="It should not be a C# keyword."></answer>
+    <answer correct="false" text="It must not contain any embedded space or symbol such as? - + ! @ # % ^ * ( ) [ ] { }"></answer>
+    <answer correct="false" text="Both of the above."></answer>
+    <answer correct="false" text="None of the above."></answer>
+  </question>
+  <question text="What is the difference between static and sealed class?">
+    <answer correct="false" text="sealed class can be inherited and static - not"></answer>
+    <answer correct="false" text="static class can inherit from others and sealed - not"></answer>
+    <answer correct="false" text="sealed class can be instantiated and static - not"></answer>
+    <answer correct="false" text="static class can be inherited and sealed - not"></answer>
+  </question>
+</exam>
+
